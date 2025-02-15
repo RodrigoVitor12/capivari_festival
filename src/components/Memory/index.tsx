@@ -1,4 +1,4 @@
-import image from '../../assets/image4.jpg'
+import Carrousel from "../Carrousel";
 
 export default function Memory() {
   return (
@@ -16,12 +16,7 @@ export default function Memory() {
 
       <div className="md:grid grid-cols-2">
         <div className="mt-4">
-          <img
-            className="mx-auto"
-            src={image}
-            alt="foto do evento"
-            width="300"
-          />
+            <Carrousel />
         </div>
         <div className="bg-white text-black w-[300px] p-2 mx-auto mt-4">
           <p>
