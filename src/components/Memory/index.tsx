@@ -6,25 +6,23 @@ export default function Memory() {
       <h2 className="text-center text-3xl md:text-6xl font-normal">
         NA ESTRADA DA MEMORIA
       </h2>
-      <p className="text-center text-xl mt-4 font-light">
-        1º Edição Capivari Festival
-      </p>
-      <p className="text-center font-light">
-        Fomentar encontros e relações significativas por meio da arte e da
-        música.
-      </p>
+      <h2 className="text-center text-3xl md:text-6xl font-[Shrikhand]! text-6xl md:text-9xl! mx-24 text-right font-normal mt-6">
+        2025
+      </h2>
 
       <div className="md:grid grid-cols-2">
         <div className="mt-4">
             <Carrousel />
         </div>
-        <div className="bg-white text-black w-[300px] p-2 mx-auto mt-4">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-            consectetur impedit cupiditate pariatur eveniet, totam officia ea ad
-            aliquid repellat optio odio aliquam quam, autem, doloribus dolorem
-            ut repudiandae porro!
-          </p>
+        <div className="bg-white text-black w-[300px] md:w-[400px] p-6 mx-auto mt-4 leading-[26px]">
+          <p className="text-slate-700 text-2xl text-bold mb-16">Capivari Festival 2025</p>
+          <p>A primeira edição do Capivari Festival foi um sucesso. </p>
+          <p>Amantes da música eletrônica se reuniram num Sabado ensolarado para curtir 9h de música eletrônica</p>
+          <p>Dia 08 de fevereiro, o Jardim Secreto ficou pequeno, Capivari Festival transformou o local num verdadeiro paraíso da música eletrônica. As Flash Tattoos, piercings, bebidas, batatas fritas, piscina e muita música boa estavam à disposição do público.</p>
+          <p>O festival teve intuito de trazer mais a cena eletrônica para a cidade de Santa Rita do Sapucaí, MG e divulgar excelentes djs para mostrar seu trabalho.</p>
+          <p>O line up foi de total pesos, com Djs que agitaram a multidão.</p>
+
+          <a href="#" className="text-cyan-700">Confira o Line up clicando aqui</a>
         </div>
       </div>
     </div>
