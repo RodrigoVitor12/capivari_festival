@@ -6,8 +6,6 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 import image5 from "../../assets/image5.jpg";
 import image6 from "../../assets/image6.jpg";
 import image7 from "../../assets/image7.jpg";
-import image8 from "../../assets/image8.jpg";
-import image9 from "../../assets/image9.jpg";
 
 export default function Carrousel() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -36,14 +34,6 @@ export default function Carrousel() {
     {
       id: 6,
       url: image7,
-    },
-    {
-      id: 7,
-      url: image8,
-    },
-    {
-      id: 8,
-      url: image9,
     },
   ];
 
