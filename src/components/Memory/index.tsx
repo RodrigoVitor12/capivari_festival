@@ -21,8 +21,6 @@ export default function Memory() {
           <p>Dia 08 de fevereiro, o Jardim Secreto ficou pequeno, Capivari Festival transformou o local num verdadeiro paraíso da música eletrônica. As Flash Tattoos, piercings, bebidas, batatas fritas, piscina e muita música boa estavam à disposição do público.</p>
           <p>O festival teve intuito de trazer mais a cena eletrônica para a cidade de Santa Rita do Sapucaí, MG e divulgar excelentes djs para mostrar seu trabalho.</p>
           <p>O line up foi de total pesos, com Djs que agitaram a multidão.</p>
-
-          <a href="#" className="text-cyan-700">Confira o Line up clicando aqui</a>
         </div>
       </div>
     </div>

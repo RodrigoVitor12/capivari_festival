@@ -1,5 +1,6 @@
 import logo from './assets/logo.png'
 import Footer from './components/Footer'
+import Lineup from './components/Lineup'
 
 import Main from './components/Main'
 import Memory from './components/Memory'
@@ -12,6 +13,7 @@ export default function App () {
       </nav>
       <Main />
       <Memory />
+      <Lineup />
       <Footer />
     </div>
   )
