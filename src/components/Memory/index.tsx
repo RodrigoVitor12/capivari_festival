@@ -6,12 +6,12 @@ export default function Memory() {
       <h2 className="text-center text-3xl md:text-6xl font-normal">
         NA ESTRADA DA MEMORIA
       </h2>
-      <h2 className="text-3xl font-[Shrikhand]! md:text-9xl mx-24 text-right font-normal mt-6">
+      <h2 className="font-[Shrikhand]! text-7xl md:text-9xl mx-6 md:mx-24 text-right font-normal mt-6">
         2025
       </h2>
 
       <div className="md:grid grid-cols-2">
-        <div className="mt-4">
+        <div className="mt-4 w-[300px] mx-auto">
             <Carrousel />
         </div>
         <div className="bg-white text-black w-[300px] md:w-[400px] p-6 mx-auto mt-4 leading-[26px]">
