@@ -2,12 +2,12 @@ import Carrousel from "../Carrousel";
 
 export default function Memory() {
   return (
-    <div className="py-6 bg-[#000] text-white">
+    <div className="py-6 bg-[#03511d] text-white">
       <h2 className="text-center text-3xl md:text-6xl font-normal">
         NA ESTRADA DA MEMORIA
       </h2>
-      <h2 className="font-[Shrikhand]! text-7xl md:text-9xl mx-6 md:mx-24 text-right font-normal mt-6">
-        2025
+      <h2 className="font-[Shrikhand]! text-7xl md:text-7xl mx-6 md:mx-24 text-right font-normal mt-6">
+        08/02/2025
       </h2>
 
       <div className="md:grid grid-cols-2">

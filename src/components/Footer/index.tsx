@@ -2,7 +2,7 @@ import logo from '../../assets/logo.png'
 export default function Footer () {
 
     return (
-        <footer className='flex flex-col items-center p-8 bg-[#000] text-white gap-4 '>
+        <footer className='flex flex-col items-center p-8 bg-[#01160d] text-white gap-4 '>
             <div>
                 <img src={logo} alt="Logo capivari festival" className='w-[100px]' />
             </div>

@@ -1,16 +1,19 @@
-export default function Main () {
-    return (
-    <main>
-        <div 
-          className="bg-[url('./assets/bg-mobile.png')] md:bg-[url('./assets/bg-image.jpg')] bg-cover bg-center min-h-120 md:min-h-150 flex flex-col justify-center p-4" 
-        >
-          <h1 className="text-white text-5xl md:text-8xl  font-bold text-center">Capivari Festival</h1>
-          <p className="text-white text-center text-xl mt-4  font-light">08 de fevereiro de 2025 | Jardim Secreto, Santa Rita do Sapucai - MG</p>
+import capivari from "../../assets/capvari.jpg";
 
-          <div className='mx-auto mt-12'>
-            <button className='bg-[#58952e] md:text-2xl rounded-md w-[300px] p-2 cursor-pointer text-white'>Mais informações em breve</button>
-          </div>
+export default function Main() {
+  return (
+    <main>
+      <div className="bg-[url('./assets/bg-mobile.png')] md:bg-[url('./assets/bg-image.jpg')] bg-cover bg-center min-h-120 md:min-h-150 flex flex-col justify-center p-4">
+        <img src={capivari} alt="image" className="w-[350px] mx-auto" />
+        <p className="text-white text-center text-xl mt-4  font-bold">
+          Se prepara para 2º Edição do Capivari Festival
+        </p>
+        <div className="mx-auto mt-12">
+          <button className="bg-[#03511d] hover:bg-[#01160d] md:text-2xl rounded-md w-[300px] p-2 cursor-pointer text-white">
+            Mais informações em breve
+          </button>
         </div>
-      </main>
-    )
+      </div>
+    </main>
+  );
 }
