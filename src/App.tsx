@@ -1,3 +1,4 @@
+import { Instagram } from "lucide-react";
 import logo from "./assets/logo.png";
 import Footer from "./components/Footer";
 
@@ -21,6 +22,9 @@ export default function App() {
             </li>
             <li>
               <a href="#">Info</a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/capivarifestival/" target="_blank"><Instagram /></a>
             </li>
           </ul>
         </div>
