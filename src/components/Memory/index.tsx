@@ -6,7 +6,7 @@ export default function Memory() {
       <h2 className="text-center text-3xl md:text-6xl font-normal">
         NA ESTRADA DA MEMORIA
       </h2>
-      <h2 className="font-[Shrikhand]! text-7xl md:text-7xl mx-6 md:mx-24 text-right font-normal mt-6">
+      <h2 className="font-[Shrikhand]! text-5xl md:text-7xl mx-6 md:mx-24 text-right font-normal mt-6">
         08/02/2025
       </h2>
 
