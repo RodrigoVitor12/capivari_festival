@@ -2,8 +2,8 @@ import Carrousel from "../Carrousel";
 
 export default function Memory() {
   return (
-    <div className="py-6 bg-[#03511d] text-white">
-      <h2 className="text-center text-3xl md:text-6xl font-normal">
+    <div className="py-6 bg-[#191919] text-white">
+      <h2 className="ml-10 md:ml-55 text-3xl md:text-6xl font-normal">
         NA ESTRADA DA MEMORIA
       </h2>
       <h2 className="font-[Shrikhand]! text-5xl md:text-7xl mx-6 md:mx-24 text-right font-normal mt-6">
