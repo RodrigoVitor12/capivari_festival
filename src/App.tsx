@@ -22,9 +22,6 @@ export default function App() {
               <a target="_blank" href={ticketURL}>Ingressos</a>
             </li>
             <li>
-              <a href="#">Info</a>
-            </li>
-            <li>
               <a href="https://www.instagram.com/capivarifestival/" target="_blank"><Instagram /></a>
             </li>
           </ul>
