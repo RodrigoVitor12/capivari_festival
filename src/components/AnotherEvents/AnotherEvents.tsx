@@ -4,10 +4,12 @@ type AnotherEventsType = {
     day: string;
     title: string;
     place: string;
-    tickect: string
+    tickect: string;
+    isHappening: boolean;
+    isTicket: boolean
 }
 
-function AnotherEvents({event, month, day, title, place, tickect}: AnotherEventsType) {
+function AnotherEvents({event, month, day, title, place, tickect, isHappening, isTicket}: AnotherEventsType) {
   return (
     <div className="relative">
       <div className="bg-white absolute p-2 text-center rounded-2xl">
@@ -20,9 +22,21 @@ function AnotherEvents({event, month, day, title, place, tickect}: AnotherEvents
           {title}
         </span>
         <span className="block text-xs">{place}</span>
-        <a href={tickect} className="text-zinc-300">
-          INGRESSOS
-        </a>
+        {isHappening ? (
+          <>
+            {isTicket ? (
+              <a href={tickect} className="text-zinc-300" target="_blank">
+                INGRESSOS
+              </a>
+            ) : (
+              <p>Ingressos em breve</p>
+            )}
+           
+          </>
+        ) : (
+          <p>Evento Finalizado</p>
+        )}
+       
       </div>
     </div>
   );
