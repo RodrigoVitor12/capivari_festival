@@ -14,10 +14,10 @@ export default function Lineup () {
                 </p>
                 <h2 className="text-6xl mt-8">LINEUP</h2>
                 <div className="grid grid-cols-2 md:flex gap-4">
-                    <DJS name="IN-D6" instagram="#" />
-                    <DJS name="RASEC" instagram="#" />
+                    <DJS name="IN-D6" instagram="https://www.instagram.com/in_d6_/" />
+                    <DJS name="RASEC" instagram="https://www.instagram.com/_rasec01/" />
                     <DJS name="FCOST" instagram="#" />
-                    <DJS name="CORELIO" instagram="#" />
+                    <DJS name="CORELIO" instagram="https://www.instagram.com/corelioo/" />    
                 </div>
                 <div className="border-0 w-55 text-center p-2 rounded-2xl mt-4 bg-[#252525] hover:bg-amber-50">
                     <p className="text-blue-600 font-bold">EM BREVE MAIS A CONFIRMAR</p>
