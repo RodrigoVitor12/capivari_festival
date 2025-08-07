@@ -8,9 +8,9 @@ type URL = {
 
 function NewEdition ({ticket}: URL) {
     return (
-        <div className="bg-[#191919] text-white">
-            <h2 className="ml-55 text-3xl md:text-6xl">2º Edição Pesqueiro to Atoa</h2>
-            <p className='ml-55 my-4'>
+        <div className="bg-[#191919] text-white pt-8">
+            <h2 className="ml-5 md:ml-55 text-3xl md:text-6xl">2º Edição Pesqueiro to Atoa</h2>
+            <p className='ml-5 md:ml-55 my-4'>
                 Prepare-se! Vem aí a 2ª edição do Capivari Festival — no coração de Santa Rita do Sapucaí, no incrível Pesqueiro Tô Atoa. Música, natureza e vibrações únicas te esperam!
             </p>
             <div className="flex gap-4 overflow-x-auto whitespace-nowrap px-4 md:justify-center">

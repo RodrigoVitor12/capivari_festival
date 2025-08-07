@@ -6,6 +6,7 @@ import Main from "./components/Main";
 import Memory from "./components/Memory";
 import Lineup from "./components/Lineup";
 import NewEdition from "./components/NewEdition";
+import UpcomingEvents from "./components/UpcomingEvents/UpcomingEvents";
 
 export default function App() {
   const ticketURL = "https://www.partiurole.app/party/66c10a47-4201-48b5-a729-9c4c71a937db?fbclid=PAZXh0bgNhZW0CMTEAAacGtIlZTiwNNy7FHSAtrMup9UrmHS-p9g5ALpG-YZ776cF2IIBpA773P2k2_A_aem_tQw0MWVY2KMKd277dLd3Sg"
@@ -31,6 +32,7 @@ export default function App() {
       </nav>
       <Main ticket={ticketURL} />
       <Lineup />
+      <UpcomingEvents />
       <NewEdition ticket={ticketURL} />
       <Memory />
       <Footer />
