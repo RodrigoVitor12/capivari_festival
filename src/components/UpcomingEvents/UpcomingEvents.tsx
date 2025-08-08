@@ -1,5 +1,5 @@
 import warmup1 from '../../assets/warmup1.png'
-import warmup2 from '../../assets/warmup2.png'
+import warmup2 from '../../assets/Warmup2.png'
 import AnotherEvents from '../AnotherEvents/AnotherEvents'
 
 function UpcomingEvents () {
