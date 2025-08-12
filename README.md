@@ -25,6 +25,6 @@ npm run dev
 ```
 ## Site no ar
 * Clique no link a seguir:
-[Capivari Festival](https://capivarifestival.netlify.app/)
+[Capivari Festival](https://capivari-festivalsrs.vercel.app/)
 
 
