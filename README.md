@@ -1,5 +1,7 @@
 # Capivari Festival
-Em 2025, aconteceu a primeira festa de música eletrônica na minha cidade, pensando nisso então, criei uma página sobre o festival para treinar minhas habilidades em React. Nesse projeto utilizei React, Typescript, Taiwlind Css e components.
+Em 2025, minha cidade recebeu sua primeira festa de música eletrônica. Inspirado por esse evento, desenvolvi uma página sobre o festival como forma de praticar e aprimorar minhas habilidades em desenvolvimento web.
+
+O projeto foi construído com React, TypeScript, Tailwind CSS e componentes reutilizáveis, buscando unir boa performance, design responsivo e código limpo.
 
 ## Instalação
 1. Clone o repositório:
