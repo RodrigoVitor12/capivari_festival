@@ -12,13 +12,13 @@ function UpcomingEvents () {
                 <div className='flex flex-col items-center md:flex-row gap-4'>
                     <AnotherEvents 
                         event={warmup1} day='15' month='AGO' 
-                        place='Jazz Café, Itájuba' tickect={TicketJazzCafe} isTicket
-                        title='Warmup Capivari Festival' isHappening={true} 
+                        place='Jazz Café, Itájuba' tickect={TicketJazzCafe} isTicket={false}
+                        title='Warmup Capivari Festival' isHappening={false} 
                     />
                     <AnotherEvents 
                         event={warmup2} day='30' month='AGO' 
-                        place='P35, Pouso Alegre' tickect='#' isTicket={false}
-                        title='Warmup Capivari Festival' isHappening={true}
+                        place='P35, Pouso Alegre' tickect='https://www.instagram.com/p35bar/' isTicket
+                        title='Warmup Capivari Festival' isHappening
                     />
                 </div>
             </div>
